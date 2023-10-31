@@ -1,0 +1,69 @@
+.card:hover{
+    transform: translateY(0%);
+}
+
+.watch-page .watch-icon{
+    position: absolute;  /*وضع الايقونات اسفل الفيديو*/
+    bottom: 5px;
+    
+}
+
+.watch-icon i:hover{
+    cursor: pointer;
+}
+
+.watch-page #more{
+    display: none;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.card-inner{
+    display: none;
+}
+
+.public-comments .card .btn{
+    background-color: #921192;
+    border-color: #8a198a;
+    color: #fff;
+}
+
+.public-comments .card .btn:hover{
+    background-color: #c223c2;
+}
+
+time{
+    left: 24px !important;
+}
+
+.watch-page .fa-play{
+    right: 45%;
+}
+
+@media (min-width: 992pxn){
+    time{
+        font-size: 13px;
+    }
+
+    .fa-play{
+        font-size: 20px !important;
+    }
+}
+
+div.dropdown-menu.show{
+    inset: 0px 105px auto auto !important;
+}
+
+@media( max-width:1029px){
+    #myBtn{
+        margin-bottom: 60px !important;
+    }
+}
+
+@media( max-width: 570px){
+    .reply-time{
+        font-size: 10px;
+    }
+}
